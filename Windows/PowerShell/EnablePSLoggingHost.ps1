@@ -33,6 +33,8 @@ Examples:
 #
 # Enable standard recommended logging both ScriptBlock and Module
 .\EnablePSLoggingHost.ps1 -Enable Standard
+# Recommended simple usage
+powershell.exe -ExecutionPolicy Bypass -File ".\EnablePSLoggingHost.ps1" -Enable Standard
 #
 # Enable selected logging:
 .\EnablePSLoggingHost.ps1 -Enable ScriptBlock
